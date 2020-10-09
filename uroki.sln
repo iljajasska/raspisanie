@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uroki.Android", "uroki\uroki.Android\uroki.Android.csproj", "{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uroki", "uroki\uroki\uroki.csproj", "{898950F7-B2ED-4A3E-B701-A8B06D171DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE66BA6-8D2C-4998-AC30-D24DD3DEB1B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{898950F7-B2ED-4A3E-B701-A8B06D171DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898950F7-B2ED-4A3E-B701-A8B06D171DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898950F7-B2ED-4A3E-B701-A8B06D171DAE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{898950F7-B2ED-4A3E-B701-A8B06D171DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898950F7-B2ED-4A3E-B701-A8B06D171DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898950F7-B2ED-4A3E-B701-A8B06D171DAE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {751B3E8A-ACB9-44B1-B798-56822CE9EE68}
+	EndGlobalSection
+EndGlobal
