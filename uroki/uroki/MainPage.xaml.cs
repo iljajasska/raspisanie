@@ -77,8 +77,8 @@ namespace uroki
             var tap2 = new TapGestureRecognizer();
             tap2.Tapped += async (s, e) =>
             {
-                urok1 = (Label)s;
-                await DisplayAlert("Дополнительная информация", "Кабинет B221 \n Mihhailova Ljudmilla", "закрыть");
+                urok2 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет A123 \n Shkarbanova Lury", "закрыть");
             };
             urok2.GestureRecognizers.Add(tap2);
 
@@ -88,8 +88,8 @@ namespace uroki
             var tap3 = new TapGestureRecognizer();
             tap3.Tapped += async (s, e) =>
             {
-                urok1 = (Label)s;
-                await DisplayAlert("Дополнительная информация", "Кабинет B221 \n Mihhailova Ljudmilla", "закрыть");
+                urok3 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет E07 \n Oleinik Marina", "закрыть");
             };
             urok3.GestureRecognizers.Add(tap3);
 
@@ -99,8 +99,8 @@ namespace uroki
             var tap4 = new TapGestureRecognizer();
             tap4.Tapped += async (s, e) =>
             {
-                urok1 = (Label)s;
-                await DisplayAlert("Дополнительная информация", "Кабинет B221 \n Mihhailova Ljudmilla", "закрыть");
+                urok4 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B002 \n Jaanus Krull", "закрыть");
             };
             urok4.GestureRecognizers.Add(tap4);
 
@@ -110,36 +110,99 @@ namespace uroki
             var tap5 = new TapGestureRecognizer();
             tap5.Tapped += async (s, e) =>
             {
-                urok1 = (Label)s;
-                await DisplayAlert("Дополнительная информация", "Кабинет B221 \n Mihhailova Ljudmilla", "закрыть");
+                urok5 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B242 \n Voronetskaja Julia", "закрыть");
             };
             urok5.GestureRecognizers.Add(tap5);
 
             urok6 = new Label { BackgroundColor = Color.DeepPink, Text = "Eesti keel \teise keelena \n \n \n B236" };
             abs.Children.Add(urok6, 7, 2);
             Grid.SetColumnSpan(urok6, 2);
+            var tap6 = new TapGestureRecognizer();
+            tap6.Tapped += async (s, e) =>
+            {
+                urok6 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B236 \n Lääneväli Alina", "закрыть");
+            };
+            urok6.GestureRecognizers.Add(tap6);
             urok7 = new Label { BackgroundColor = Color.Violet, Text = "w.paig.sead \n \n \n A243" };
             abs.Children.Add(urok7, 1, 3);
             Grid.SetColumnSpan(urok7, 3);
+            var tap7 = new TapGestureRecognizer();
+            tap7.Tapped += async (s, e) =>
+            {
+                urok7 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет A243 \n Mihhailova Ljudmilla", "закрыть");
+            };
+            urok7.GestureRecognizers.Add(tap7);
             urok8 = new Label { BackgroundColor = Color.Green, Text = "Transp.log.juht \n \n \n B003" };
             abs.Children.Add(urok8, 4, 3);
             Grid.SetColumnSpan(urok8, 5);
+            var tap8 = new TapGestureRecognizer();
+            tap8.Tapped += async (s, e) =>
+            {
+                urok8 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B003 \n Jaanus Krull", "закрыть");
+            };
+            urok8.GestureRecognizers.Add(tap8);
             urok9 = new Label { BackgroundColor = Color.DarkViolet, Text = "Keemia \n eesti keeles \n \n \n B144" };
             abs.Children.Add(urok9, 9, 3);
+            var tap9 = new TapGestureRecognizer();
+            tap9.Tapped += async (s, e) =>
+            {
+                urok9 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B144 \n Pesetskaja Svetlana", "закрыть");
+            };
+            urok9.GestureRecognizers.Add(tap9);
             urok10 = new Label { BackgroundColor = Color.Violet, Text = "W.paig.sead \n \n \n A243" };
             abs.Children.Add(urok10, 1, 4);
             Grid.SetColumnSpan(urok10, 3);
+            var tap10 = new TapGestureRecognizer();
+            tap10.Tapped += async (s, e) =>
+            {
+                urok10 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет A243 \n Shkarbanova Lury", "закрыть");
+            };
+            urok10.GestureRecognizers.Add(tap10);
             urok11 = new Label { BackgroundColor = Color.LightPink, Text = "Võrgud ja seadm. \n \n \n A123" };
             abs.Children.Add(urok11, 5, 4);
             Grid.SetColumnSpan(urok11, 2);
+            var tap11 = new TapGestureRecognizer();
+            tap11.Tapped += async (s, e) =>
+            {
+                urok11 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет A123 \n Agapov Mihhail", "закрыть");
+            };
+            urok11.GestureRecognizers.Add(tap11);
             urok12 = new Label { BackgroundColor = Color.DarkGray, Text = "Inglise W.hald \n \n \n B242" };
             abs.Children.Add(urok12, 7, 4);
             Grid.SetColumnSpan(urok12, 2);
+            var tap12 = new TapGestureRecognizer();
+            tap12.Tapped += async (s, e) =>
+            {
+                urok12 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B242 \n Voronetskaja Julia", "закрыть");
+            };
+            urok12.GestureRecognizers.Add(tap12);
             urok13 = new Label { BackgroundColor = Color.DarkViolet, Text = "Keemia \n eesti keeles \n \n \n B144" };
             abs.Children.Add(urok13, 1, 5);
+            var tap13 = new TapGestureRecognizer();
+            tap13.Tapped += async (s, e) =>
+            {
+                urok13 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет B144 \n Pesetskaja Svetlana", "закрыть");
+            };
+            urok13.GestureRecognizers.Add(tap13);
             urok14 = new Label { BackgroundColor = Color.LightBlue, Text = "Mob.Rak \n \n \n E07" };
             abs.Children.Add(urok14, 3, 5);
             Grid.SetColumnSpan(urok14, 3);
+            var tap14 = new TapGestureRecognizer();
+            tap14.Tapped += async (s, e) =>
+            {
+                urok14 = (Label)s;
+                await DisplayAlert("Дополнительная информация", "Кабинет E07 \n Oleinik Marina", "закрыть");
+            };
+            urok14.GestureRecognizers.Add(tap14);
 
             Content = abs;
         }
